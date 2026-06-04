@@ -1,7 +1,7 @@
 # Cold Storage Calculations: Subterranean Thermal Exchange Loop
 
 **Project:** OpenCell Thermal-Mechanical Energy System  
-**Author:** Jesse  
+**Author:** Jesse McMillen  
 **Date:** June 2026  
 **License:** CC-BY-NC-SA 4.0 (Open Source with Royalty Claims on Commercial Derivatives)  
 **Version:** 1.0

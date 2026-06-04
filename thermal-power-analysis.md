@@ -1,7 +1,7 @@
 # Thermal Power Analysis: OpenCell Aerocement Hybrid System
 
 **Project:** OpenCell Thermal-Mechanical Energy System  
-**Author:** Jesse  
+**Author:** Jesse McMillen  
 **Date:** June 2026  
 **License:** CC-BY-NC-SA 4.0 (Open Source with Royalty Claims on Commercial Derivatives)  
 **Version:** 2.0 (Updated with Hybrid Cascade Logic)
