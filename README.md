@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20549528.svg)](https://doi.org/10.5281/zenodo.20549528)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
 ![Status](https://img.shields.io/badge/Status-Active_Development-orange)
 ![Tech](https://img.shields.io/badge/Tech-Thermal%20%7C%20Mechanical%20%7C%20Passive_Cooling-blue)
@@ -9,7 +10,6 @@
 **A civilization-changing, open-source energy system providing zero-electric cooling and direct mechanical power for farms and homes.**
 
 </div>
-
 ---
 
 ## 🌍 The Problem
