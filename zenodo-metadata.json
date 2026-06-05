@@ -4,7 +4,7 @@
     "description": "An open-source thermal energy system providing zero-electric cooling and direct mechanical power for farms and homes. Uses OpenCell Aerocement for solar thermal capture, subterranean cold loops for passive refrigeration, and Stirling/Rocket Mass engines for mechanical work transmission.",
     "creators": [
       {
-        "name": "Jesse",
+        "name": "Jesse Mcmillen",
         "affiliation": "OpenCell Project"
       }
     ],
