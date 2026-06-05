@@ -2,6 +2,7 @@
 
 <div align="center">
 
+[![IPFS](https://img.shields.io/badge/IPFS-Permanent_Archive-purple)](https://ipfs.io/ipfs/bafkreiboiyvpprxnhjylx2c7qnraitjj6gd4n7hjjotlli7liwmpliezdna)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20549528.svg)](https://doi.org/10.5281/zenodo.20549528)
 ![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
 ![Status](https://img.shields.io/badge/Status-Active_Development-orange)
@@ -125,7 +126,7 @@ See the full [LICENSE](./LICENSE) for details.
 - [ ] Field Testing (Thermal & Cooling Metrics)
 - [ ] Grant Submission Package Finalization
 - [ ] Zenodo DOI Publication
-- [ ] IPFS Permanent Archive
+- [x] IPFS Permanent Archive
 
 ---
 
