@@ -1,115 +1,151 @@
-# Grant Application: USDA NIFA AFRI
-## Program: Engineering for Agricultural Production and Processing
-## Fiscal Year: 2026
+# USDA NIFA Grant Application Narrative
 
-**Project Title:** OpenCell: A Novel Thermal-Mechanical Architecture for Zero-Electric Agricultural Cooling and Direct Mechanical Power
-
-**Principal Investigator:** Jesse McMillen  
-**Date:** June 4, 2026  
-**Contact:** mcmillenjesse707@gmail.com  
-**Repository:** https://github.com/jesseray718/OpenCell-Thermal-System  
-**Published Data:** https://doi.org/10.5281/zenodo.20549528
+**Applicant:** Jesse McMillen  
+**Project Title:** OpenCell Thermal-Mechanical Energy System: Zero-Electric Cooling and Direct Mechanical Power for Rural Farms  
+**Program:** Sustainable Agriculture Research and Education (SARE) / Agriculture and Food Research Initiative (AFRI)  
+**Requested Amount:** $5,400 (SARE Farmer/Rancher) / $50,000–$200,000 (AFRI/RDRE)  
+**Date:** June 2026  
 
 ---
 
-## 1. Abstract
-Rural agricultural producers face a critical triad of challenges: escalating energy costs for irrigation and refrigeration, grid instability leading to crop spoilage, and water scarcity. Current solar photovoltaic (PV) solutions address electricity generation but fail to provide direct mechanical power or passive cooling, often requiring expensive battery storage and rare-earth components.
+## 1. Project Abstract
 
-This project proposes the development and field validation of the **OpenCell Thermal-Mechanical Energy System**, a breakthrough architecture that bypasses electrical conversion to deliver **direct mechanical shaft power** (3.7 kW) and **zero-electric passive cooling** (1.6 Tons of Refrigeration) using a proprietary **OpenCell Aerocement**. This material utilizes a capillary-active matrix (xanthan gum, surfactant, and activated carbon) to act as a high-efficiency blackbody absorber and subterranean heat exchanger.
+Rural farms face a crisis of energy cost and food loss. Without affordable refrigeration, an estimated 30–40% of harvested produce spoils before reaching market. Traditional cold storage requires grid electricity or diesel generators — both expensive and unreliable in remote areas.
 
-The project aims to: (1) Construct three functional prototype units for field testing on partner farms; (2) Validate thermal efficiency, cooling capacity, and water yield against thermodynamic models; and (3) Establish an open-source manufacturing protocol for community-level deployment.
+The **OpenCell Thermal-Mechanical Energy System** eliminates this dependency entirely. By combining a novel **OpenCell Aerocement** material with subterranean thermal exchange, the system provides:
 
-Expected outcomes include a **50% reduction in farm energy costs**, **elimination of food spoilage** due to power outages, and **fresh water generation** (24-48 gal/day) as a byproduct. By leveraging locally sourced materials and open-source design, OpenCell offers a scalable, resilient solution for rural energy independence, directly aligning with NIFA's priorities for agricultural engineering and sustainable food systems.
+*   **Zero-electric cooling** to 35°F using the constant 55°F earth temperature as a heat sink.
+*   **Fresh water harvesting** of 24–48 gallons/day via passive condensation.
+*   **Direct mechanical power** via Stirling engine integration, bypassing electrical conversion losses.
+
+This project requests funding to construct and field-test a prototype unit on a participating farm, validating the thermodynamic model with real-world sensor data over a 12-month period.
 
 ---
 
 ## 2. Statement of Need
-Small-scale and mid-sized agricultural operations in the U.S. are increasingly vulnerable to energy volatility.
-1.  **Energy Costs:** Refrigeration and irrigation pumping account for up to **40% of operating expenses** for many farms.
-2.  **Grid Reliability:** Extreme weather events cause frequent outages, resulting in millions of dollars in lost produce annually.
-3.  **Technology Gap:** Existing renewable solutions (PV + Battery) are capital-intensive ($15k-$30k per kW), require specialized maintenance, and cannot drive heavy mechanical loads (pumps, saws) directly.
-4.  **Water Scarcity:** Many rural regions lack affordable off-grid water purification.
 
-**The Gap:**
-There is no commercially available technology that simultaneously provides **mechanical work**, **passive cooling**, and **water recovery** without relying on the electrical grid. The OpenCell system fills this gap by utilizing **thermal energy directly**, eliminating conversion losses and battery dependency.
+### 2.1 The Post-Harvest Loss Crisis
+According to the USDA, post-harvest losses of fruits and vegetables in the United States range from 30–40%, primarily due to inadequate cold chain infrastructure. Small and mid-size farms are disproportionately affected because they lack the capital to install commercial refrigeration systems.
+
+### 2.2 The Energy Cost Burden
+Rural electric cooperatives charge an average of $0.14–$0.20/kWh. A single walk-in cooler consuming 8 kWh/day costs approximately $350–$500/year to operate. Diesel generators cost even more and produce emissions.
+
+### 2.3 The Water Scarcity Parallel
+Many of the same rural communities facing energy poverty also experience seasonal drought. A system that produces clean water as a byproduct of its cooling cycle addresses two needs simultaneously.
+
+### 2.4 The Technology Gap
+Current solutions fall short:
+*   **Grid refrigeration:** Expensive, fragile, dependent on infrastructure.
+*   **Diesel generators:** Polluting, fuel-dependent, high maintenance.
+*   **Evaporative coolers:** Cannot achieve temperatures below wet-bulb; useless in humid climates; consume water instead of producing it.
+
+The OpenCell System fills this gap by providing **compressor-free, fuel-free cooling** with **net-positive water output**.
 
 ---
 
 ## 3. Project Objectives
-1.  **Objective 1: Prototype Construction.**
-    *   Construct three (3) full-scale OpenCell units (65 sq ft collectors + subterranean labyrinths) at partner farm sites by Month 12.
-2.  **Objective 2: Performance Validation.**
-    *   Empirically validate the system's ability to achieve **35°F outlet air temperature** from 90°F ambient input and generate **3.7 kW of direct mechanical shaft power**.
-3.  **Objective 3: Economic & Environmental Impact Analysis.**
-    *   Quantify cost savings (target: **$5,900/year/unit**) and water yield (target: **1-2 gal/hr**) over a 12-month operational period.
-4.  **Objective 4: Open-Source Dissemination.**
-    *   Publish all design files, mixing protocols, and performance data on GitHub and Zenodo (DOI: 10.5281/zenodo.20549528) to enable global replication.
+
+1.  **Construct** a full-scale prototype of the OpenCell Subterranean Cold Loop (65 sq ft collector, 10ft depth).
+2.  **Validate** the thermodynamic model: Confirm 35°F output air temperature at 330 CFM airflow.
+3.  **Quantify** water yield: Measure daily condensation output against the predicted 24–48 gallon/day baseline.
+4.  **Document** the OpenCell Aerocement mixing protocol for farmer reproducibility.
+5.  **Publish** all findings as open-source documentation (CC-BY-NC-SA 4.0) for maximum public benefit.
 
 ---
 
-## 4. Methodology & Innovation
-**Phase 1: Material Optimization (Months 1-3)**
-*   Refine the **OpenCell Aerocement** formulation (Xanthan/Dawn/Cement/Carbon ratios) to maximize capillary flow and blackbody absorption.
-*   Conduct lab-scale thermal cycling tests to verify durability.
+## 4. Technical Approach
 
-**Phase 2: System Integration (Months 4-6)**
-*   Fabricate the **Hybrid Power Train**: Integrate the Stirling/Rocket Mass engine with a flywheel and belt-drive transmission.
-*   Excavate and line the **Subterranean Labyrinth** (10ft depth) with OpenCell blocks.
+### 4.1 The OpenCell Aerocement
+The core innovation is a modified cement matrix that creates an **open-cell foam structure** with capillary channels. The formula uses readily available materials:
 
-**Phase 3: Field Deployment & Testing (Months 7-18)**
-*   Deploy units at three partner farms (diverse climates: hot/humid, arid, temperate).
-*   Install sensors (temperature, pressure, flow rate, torque) to log real-time data.
-*   Compare performance against baseline PV+Battery systems.
+*   Portland Cement (Type I/II)
+*   Xanthan Gum (15g) as a viscosity modifier
+*   Dawn Ultra surfactant (1/4 cup) for bubble stabilization
+*   Activated Carbon for blackbody absorption (>95%)
 
-**Phase 4: Data Analysis & Dissemination (Months 19-24)**
-*   Analyze data to refine the Carnot efficiency models.
-*   Publish findings and update the open-source repository.
+When mixed at a 1:2 gel-to-cement ratio and stirred to the **open-cell transition point** (marked by a visible burst of bubble pops), the material achieves a dual property: **structural strength** (from microscopic spherical voids) and **capillary moisture transport** (from interconnected channels).
 
-**Innovation Highlight:**
-The core innovation is the **OpenCell Aerocement**, a material that functions as both a **solar collector** and a **capillary heat exchanger**. Unlike standard concrete, its microscopic open-cell structure allows for simultaneous moisture transport and air cooling, enabling the system to reach **35°F** passively—a feat previously impossible without compressors.
+### 4.2 The Subterranean Cold Capture Loop
+The cooling system operates on three thermodynamic principles:
 
----
+1.  **Sensible Cooling:** Warm ambient air (90°F) enters a sealed trench lined with OpenCell Aerocement at 10ft depth. Heat conducts from the air to the 55°F earth mass.
+2.  **Latent Cooling:** As air cools, it reaches its dew point. Moisture condenses on the aerocement walls, releasing latent heat into the earth and dehumidifying the air.
+3.  **Capillary Wicking:** The aerocement continuously draws ground moisture to its surface, sustaining the evaporative/condensation cycle indefinitely.
 
-## 5. Impact & Outcomes
-**Economic Impact:**
-*   **Cost Reduction:** Farmers save ~$5,900/year per unit in energy and water costs.
-*   **Job Creation:** Local masons and technicians can build and maintain these systems, creating rural green jobs.
-*   **Food Security:** Elimination of spoilage due to power outages protects farmer income.
+**Result:** Air exits the labyrinth at approximately **35°F**, having been both cooled and dehumidified, suitable for direct use in walk-in coolers or greenhouses.
 
-**Environmental Impact:**
-*   **Zero-Electric Cooling:** Eliminates the need for HFC refrigerants and grid electricity.
-*   **Water Conservation:** Generates fresh water from ambient humidity, reducing strain on aquifers.
-*   **Material Sustainability:** Uses locally sourced cement and organic binders; no rare earth magnets or lithium.
+### 4.3 The Mechanical Power Train (Secondary)
+Excess thermal energy from the solar collector or rocket mass heater drives a **Stirling engine** with:
+*   Hot side: Embedded in 150°F+ aerocement collector.
+*   Cold side: Embedded in the 35°F subterranean loop.
+*   Delta-T: ~115°F — significantly higher than standard atmospheric Stirling configurations.
 
-**Educational Impact:**
-*   The open-source nature of the project allows universities and vocational schools to teach **thermal engineering** and **sustainable agriculture** using real-world, low-cost prototypes.
+This maximizes Carnot efficiency and provides direct belt-drive mechanical power for farm tools (pumps, saws, grinders) without electrical conversion.
 
 ---
 
-## 6. Budget Justification (Total: $650,000)
+## 5. Methodology & Timeline
+
+| Month | Activity | Deliverable |
+| :--- | :--- | :--- |
+| 1–2 | Procure materials; cast test panels | Aerocement sample data (strength, absorption) |
+| 3–4 | Excavate trench; install labyrinth lining | Completed Cold Loop installation |
+| 5–6 | Install sensor array; begin data collection | Baseline thermal data (first 60 days) |
+| 7–10 | Continuous monitoring through seasons | Full summer/winter performance dataset |
+| 11–12 | Data analysis; publish findings | Final report + open-source documentation update |
+
+---
+
+## 6. Expected Outcomes & Impacts
+
+### Quantitative Targets
+*   Air output temperature: ≤ 35°F
+*   Cooling capacity: ≥ 19,500 BTU/hr (1.6 Tons)
+*   Water yield: ≥ 24 gallons/day
+*   System cost: < $5,400 per unit
+
+### Qualitative Impacts
+*   **Food Security:** Reduced post-harvest loss for small farms.
+*   **Energy Independence:** Elimination of grid/diesel dependency for cooling.
+*   **Water Access:** Net-positive water production in drought-prone areas.
+*   **Knowledge Transfer:** Open-source publication ensures any farmer can replicate the system.
+
+### Long-Term Vision
+If validated, the OpenCell System scales to:
+*   **Individual farms:** Single-unit cold storage.
+*   **Communities:** Multi-unit shared cooling hubs.
+*   **Global deployment:** Low-cost, no-grid solution for developing regions.
+
+---
+
+## 7. Budget Justification
 
 | Category | Amount | Justification |
 | :--- | :--- | :--- |
-| **Personnel** | $350,000 | Principal Investigator (Jesse McMillen) - 50% time for 2 years; 1 Research Assistant for field testing. |
-| **Equipment & Materials** | $150,000 | Cement, xanthan gum, activated carbon, Stirling engine components, sensors, excavation tools for 3 prototypes. |
-| **Travel** | $50,000 | Site visits to 3 partner farms, conference presentations (ASABE, ASEE), stakeholder workshops. |
-| **Indirect/Administrative** | $100,000 | Grant management, administrative support, and institutional overhead. |
-| **Total** | **$650,000** | |
+| Materials (Cement, Carbon, Surfactants) | $800 | Bulk purchase for prototype + test samples |
+| Excavation Equipment Rental | $1,500 | Trenching at 10ft depth requires machinery |
+| Sensors & Data Loggers | $400 | Temperature, humidity, airflow monitoring |
+| Project Manager Stipend | $2,000 | 2 months dedicated labor for construction |
+| Contingency (15%) | $700 | Unforeseen material or equipment needs |
+| **Total** | **$5,400** | |
 
 ---
 
-## 7. Data Management Plan
-"All project data, including thermal performance logs, material formulations, and engineering drawings, will be managed according to the **FAIR principles** (Findable, Accessible, Interoperable, Reusable).
+## 8. Qualifications
 
-1.  **Storage:** Data will be stored locally on encrypted drives and backed up to the **IPFS** decentralized network (CID: bafkreiboiyvpprxnhjylx2c7qnraitjj6gd4n7hjjotlli7liwmpliezdna).
-2.  **Publication:** Final datasets and design files will be published on **GitHub** and archived on **Zenodo** with a permanent DOI (10.5281/zenodo.20549528).
-3.  **Access:** Data will be openly licensed under **CC-BY-NC-SA 4.0**, allowing global access for non-commercial research while protecting commercial IP rights.
-4.  **Timeline:** Data will be updated monthly during the project and finalized within 6 months of completion."
+**Jesse McMillen** is an independent researcher and inventor with hands-on experience in thermal systems, masonry, and material formulation. He has developed the OpenCell Aerocement formula through iterative experimentation and has validated the thermodynamic model through established engineering formulas (see `cold-storage-calculations.md`).
+
+The project is supported by open-source documentation on GitHub (https://github.com/jesseray718/OpenCell-Thermal-System) and permanently archived on IPFS (CID: QmRkBpJg8SPJjvKjsEaqeyFMqwxdko417FZrDtWBNd493w).
 
 ---
 
-## 8. References & Supporting Documents
-*   **Thermal Power Analysis:** `thermal-power-analysis.md` (GitHub)
-*   **Cold Storage Calculations:** `cold-storage-calculations.md` (GitHub)
-*   **Zenodo Publication:** https://doi.org/10.5281/zenodo.20549528
-*   **IPFS Archive:** https://ipfs.io/ipfs/bafkreiboiyvpprxnhjylx2c7qnraitjj6gd4n7hjjotlli7liwmpliezdna
+## 9. Sustainability & Dissemination
+
+*   **Open Source:** All designs, formulas, and data are published under CC-BY-NC-SA 4.0, ensuring permanent public access.
+*   **Reproducibility:** The mixing protocol requires no specialized equipment — any farmer can produce Aerocement with basic tools.
+*   **Commercial Pathway:** Commercial derivatives require a licensing agreement, creating a self-sustaining revenue stream for continued R&D.
+*   **Dissemination:** Results will be shared via GitHub, agricultural extension offices, SARE conference presentations, and farmer workshops.
+
+---
+
+*Prepared by Jesse McMillen for the OpenCell Thermal-Mechanical Energy System Project.*
