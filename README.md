@@ -56,7 +56,7 @@ Detailed physics, calculations, and engineering guides are available in the repo
 This project is released under **CC-BY-NC-SA 4.0**.
 *   **Open Source:** Anyone may study, modify, and share the designs for non-commercial use.
 *   **Commercial Derivatives:** Any commercial application of the OpenCell Aerocement formula or system design requires a licensing agreement.
-*   **Royalty Structure:** Commercial entities must pay royalties to the project owner (Jesse) for production. See `LICENSE` for full terms.
+*   **Royalty Structure:** Commercial entities must pay royalties to the project owner (**Jesse McMillen**) for production. See `LICENSE` for full terms.
 
 ## 🚀 Getting Started
 1. **Clone the Repo:** `git clone https://github.com/jesseray718/OpenCell-Thermal-System.git`
@@ -64,7 +64,7 @@ This project is released under **CC-BY-NC-SA 4.0**.
 3. **Build the Prototype:** Follow the mixing guide in `thermal-power-analysis.md`.
 
 ---
-*Developed by Jesse | Contact: [Your Email/Link]*
+*Developed by Jesse McMillen | Contact: [your-email@example.com]*
 
 ## 🌐 Permanent Archive (IPFS)
 This project is permanently archived on the InterPlanetary File System (IPFS).
