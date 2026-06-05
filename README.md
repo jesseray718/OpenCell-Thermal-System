@@ -4,7 +4,7 @@
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Status: Active Development](https://img.shields.io/badge/Status-Active_Development-orange)](https://github.com/jesseray718/OpenCell-Thermal-System)
-[![IPFS](https://img.shields.io/badge/IPFS-Pinned-blue)](https://ipfs.io/ipfs/QmPlaceholder)
+[![IPFS](https://img.shields.io/badge/IPFS-Pinned-blue)](https://ipfs.io/ipfs/QmRkBpJg8SPJjvKjsEaqeyFMqwxdko417FZrDtWBNd493w)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://doi.org/10.5281/zenodo.placeholder)
 
 </div>
