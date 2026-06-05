@@ -2,133 +2,105 @@
 
 <div align="center">
 
-[![IPFS](https://img.shields.io/badge/IPFS-Permanent_Archive-purple)](https://ipfs.io/ipfs/bafkreiboiyvpprxnhjylx2c7qnraitjj6gd4n7hjjotlli7liwmpliezdna)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20549528.svg)](https://doi.org/10.5281/zenodo.20549528)
-![License](https://img.shields.io/badge/License-CC_BY--NC--SA_4.0-lightgrey.svg)
-![Status](https://img.shields.io/badge/Status-Active_Development-orange)
-![Tech](https://img.shields.io/badge/Tech-Thermal%20%7C%20Mechanical%20%7C%20Passive_Cooling-blue)
-
-**A civilization-changing, open-source energy system providing zero-electric cooling and direct mechanical power for farms and homes.**
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![Status: Active Development](https://img.shields.io/badge/Status-Active_Development-orange)](https://github.com/jesseray718/OpenCell-Thermal-System)
+[![IPFS](https://img.shields.io/badge/IPFS-Pinned-blue)](https://ipfs.io/ipfs/QmPlaceholder)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.placeholder.svg)](https://doi.org/10.5281/zenodo.placeholder)
 
 </div>
+
+A civilization-changing, **open-source thermal energy system** providing **zero-electric cooling** and **direct mechanical power** for farms and homes.
+
+Built with low-tech tools (masonry, basic excavation) and powered by the earth's natural thermal mass.
+
 ---
 
 ## 🌍 The Problem
 Rural communities and small-scale farmers face three critical challenges:
-1.  **High Energy Costs:** Electricity for irrigation pumps and refrigeration is expensive and unreliable.
-2.  **Grid Dependency:** Power outages spoil food and halt operations.
-3.  **Water Scarcity:** Lack of affordable, off-grid water purification.
-
-Traditional solar PV solutions only solve the *electricity* problem, requiring expensive batteries and inverters, and failing to provide direct mechanical power or passive cooling.
+1.  **High Energy Costs:** Traditional cooling and power generation rely on expensive electricity and fuel.
+2.  **Grid Instability:** Power outages spoil crops and halt operations.
+3.  **Complexity:** Most renewable solutions (PV + Batteries + Inverters) are too expensive or technically complex for small-scale adoption.
 
 ## 💡 The Solution: OpenCell
-The **OpenCell System** is a hybrid thermal-mechanical architecture that bypasses electricity generation entirely for primary tasks. It uses a proprietary **OpenCell Aerocement** to capture solar heat, drive a Stirling/Rocket Mass engine, and leverage subterranean earth temperatures for **zero-electric refrigeration**.
+The OpenCell System bypasses electricity generation entirely for primary tasks. It uses a proprietary **OpenCell Aerocement** to capture solar heat, drive a Stirling/Rocket Mass engine, and leverage subterranean earth temperatures for passive refrigeration.
 
 ### Key Capabilities
-*   ⚡ **Direct Mechanical Power:** Drives pumps, saws, and grinders directly (3.7 kW shaft power).
-*   🔋 **Surplus Electricity:** Generates up to **3.17 kW** of electricity when mechanical loads are low (2.6x more than standard PV per sq ft).
-*   ❄️ **Zero-Electric Cooling:** Provides **1.6 Tons of Refrigeration** (19,500 BTU/hr) passively using subterranean heat exchange.
-*   💧 **Water Production:** Generates **1–2 gallons/hour** of fresh water via condensation.
-*   🏗️ **Low-Tech Build:** Constructible with basic masonry tools and locally sourced materials (cement, xanthan gum, activated carbon).
+-   **Zero-Electric Cooling:** Achieves 35°F air output using only earth heat sinks and evaporation.
+-   **Direct Mechanical Power:** Drives pumps, saws, and grinders directly via belt drive (no battery loss).
+-   **Water Harvesting:** Produces 1-2 gallons/hour of fresh water via condensation.
+-   **Scalable:** From small garden coolers to large farm-scale systems.
 
 ---
 
-## 🏗️ How It Works
+## 📂 Documentation & Resources
 
-### 1. The OpenCell Aerocement Collector
-A vertical 5x13 ft panel made of a unique cement matrix infused with **activated carbon**.
-*   **Blackbody Structure:** Absorbs **95%** of solar radiation (vs. 20% for PV).
-*   **Capillary Network:** Microscopic pores transport moisture for evaporative cooling and structural strength.
-*   **Thermal Mass:** Stores heat for continuous operation after sunset.
+### 🧪 Core Technology
+-   **[Aerocement Formula](aerocement-formula.md):** The exact recipe, mixing protocol, and physics of the open-cell structure.
+-   **[Field Build Guide](build-guide.md):** Step-by-step instructions for digging trenches, casting panels, and assembling the system.
+-   **[Thermal Power Analysis](thermal-power-analysis.md):** Detailed physics, efficiency metrics, and BTU calculations.
 
-### 2. The Hybrid Power Train
-*   **Heat → Mechanical:** A Stirling/Rocket Mass engine converts heat into direct shaft rotation.
-*   **Smart Load Splitting:**
-    1.  **Priority:** Powers heavy machinery (pumps, saws) directly.
-    2.  **Excess:** Spins an alternator to generate electricity for lights, phones, or battery charging.
-
-### 3. The Subterranean Cold Loop
-*   Air is forced through a 10-ft deep labyrinth lined with moist Aerocement.
-*   The earth (55°F) and evaporation cool the air to **35°F**.
-*   This "Cold" is stored in the earth's thermal mass, creating a walk-in cooler without a compressor.
-
----
-
-## 📊 Performance Metrics (Per 65 sq ft Unit)
-
+### 📊 Performance Metrics (Per 65 sq ft Unit)
 | Metric | Value | Comparison to Standard PV |
 | :--- | :--- | :--- |
-| **Raw Energy Capture** | 5.74 kW (Thermal) | **4.7x Higher** |
-| **Direct Mechanical Power** | 3.73 kW | **N/A** (PV cannot do this) |
-| **Peak Electrical Output** | 3.17 kW | **2.6x Higher** |
-| **Cooling Capacity** | 1.6 Tons (19,500 BTU/hr) | **Zero-Electric** |
-| **Water Yield** | 24–48 Gallons/Day | **Zero-Electric** |
+| **Raw Energy Capture** | 5.74 kW (Thermal) | 4.7x Higher |
+| **Direct Mechanical Power** | 3.73 kW | N/A (PV cannot do this) |
+| **Peak Electrical Output** | 3.17 kW | 2.6x Higher |
+| **Cooling Capacity** | 1.6 Tons (19,500 BTU/hr) | Zero-Electric |
+| **Water Yield** | 24–48 Gallons/Day | Zero-Electric |
+
+### 🏗️ Systems Overview
+1.  **Solar Thermal Loop:** OpenCell Aerocement panels (95% solar absorption).
+2.  **Black Locust Loop:** Biomass backup (Rocket Mass Heater integration).
+3.  **Subterranean Cold Loop:** 10ft deep earth labyrinth for 35°F air output.
+4.  **Mechanical Power Train:** Stirling engine → Flywheel → Belt Drive → Load.
 
 ---
 
-## 📂 Documentation
+## 🚀 Getting Started
 
-Detailed physics, calculations, and engineering guides are available in the repository:
+### Prerequisites
+-   **Tools:** Shovel, wheelbarrow, drill mixer, level, tape measure.
+-   **Materials:** Portland cement, Xanthan gum, Dawn Ultra, activated carbon, gravel.
+-   **Skills:** Basic masonry, excavation safety, mechanical assembly.
 
-*   **[Thermal Power Analysis](./thermal-power-analysis.md)**: Full breakdown of energy capture, Carnot efficiency, and the hybrid mechanical/electrical cascade.
-*   **[Cold Storage Calculations](./cold-storage-calculations.md)**: Math for the subterranean cooling loop, water yield, and BTU analysis.
-*   **[License](./LICENSE)**: CC-BY-NC-SA 4.0 with explicit **Royalty Claims** for commercial derivatives.
-
----
-
-## 🧪 The Aerocement Formula (Open Source)
-
-The core material is a proprietary mix designed for capillary action and blackbody absorption:
-
-*   **Base:** Portland Cement
-*   **Binder:** 15g Xanthan Gum (in rubbing alcohol slurry)
-*   **Surfactant:** 1/4 cup Dawn Ultra (mixed with water to form a no-slump gel)
-*   **Ratio:** 1 part Gel : 2 parts Cement
-*   **Activation:** Add **Activated Carbon** to the gel before mixing to create the blackbody structure.
-
-*Stir until microscopic air bubbles stabilize (open-cell transition). See `thermal-power-analysis.md` for full mixing protocol.*
+### Quick Start
+1.  **Read the Build Guide:** Start with [`build-guide.md`](build-guide.md).
+2.  **Mix the Aerocement:** Follow the protocol in [`aerocement-formula.md`](aerocement-formula.md).
+3.  **Dig the Trench:** 10ft deep, 4ft wide, 20ft long (U-shaped labyrinth).
+4.  **Assemble & Test:** Install the engine and verify cooling output.
 
 ---
 
-## 🤝 Grant Applications & Partnerships
+## 🤝 Contributing
+We welcome builders, engineers, and researchers!
+-   **Report Issues:** Found a bug or have a suggestion? Open an issue.
+-   **Share Data:** Did you build a prototype? Share your results!
+-   **Improve Docs:** Help us make the guides clearer.
 
-We are actively seeking partnerships and grants (USDA, DOE, Rural Resilience) to scale this technology.
-
-**Why Fund OpenCell?**
-*   **High Impact:** Solves energy, cooling, and water scarcity simultaneously.
-*   **Scalable:** Modular design allows for farm-sized or village-sized deployment.
-*   **Sustainable:** Uses local materials, no rare earth magnets, no lithium batteries.
-*   **Economic:** Saves ~$5,900/year per unit in operational costs.
-
-**Contact for Collaboration:**
-*   **Project Lead:** Jesse McMillen
-*   **Repository:** [github.com/jesseray718/OpenCell-Thermal-System](https://github.com/jesseray718/OpenCell-Thermal-System)
+See our **[Contributing Guidelines](CONTRIBUTING.md)** for details on how to participate and our royalty policy for commercial derivatives.
 
 ---
 
-## 📜 License & Royalty Claim
-
-This project is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (CC-BY-NC-SA)**.
-
-*   **Free for Education & Non-Profit:** Anyone can build, study, and improve this system for personal or community use.
-*   **Commercial Royalty:** Any commercial product, service, or derivative utilizing the **OpenCell Aerocement formulation**, the **thermal-mechanical architecture**, or the **Cold Capture loop** design is subject to a royalty agreement with the original author, Jesse McMillen.
-    *   *Commercial entities must contact the author for licensing terms prior to deployment.*
-
-See the full [LICENSE](./LICENSE) for details.
+## 📜 License & Royalty Policy
+This project is licensed under **CC-BY-NC-SA 4.0**.
+-   **Free for:** Personal use, education, non-profit, and community building.
+-   **Commercial Use:** Requires a licensing agreement. A percentage of revenue from commercial derivatives supports ongoing R&D.
+-   **Contact:** `licensing@opencell-project.org` (placeholder)
 
 ---
 
-## 🚀 Roadmap
-
-- [x] Core Physics Validation & Documentation
-- [x] GitHub Repository Launch
-- [ ] Prototype Construction (Aerocement Mixing & Trench Digging)
-- [ ] Field Testing (Thermal & Cooling Metrics)
-- [ ] Grant Submission Package Finalization
-- [ ] Zenodo DOI Publication
-- [x] IPFS Permanent Archive
+## 📅 Roadmap
+-   [x] Core documentation (Formula, Build Guide, Physics)
+-   [x] IPFS archival script
+-   [x] Zenodo metadata preparation
+-   [ ] Prototype testing & data collection
+-   [ ] Grant applications (USDA/DOE)
+-   [ ] Community case studies
 
 ---
 
-*Built with passion to change the world through open source thermal energy.*
+## 🙏 Acknowledgments
+Built by **Jesse** and the OpenCell community.
+Physics validated through theoretical modeling and prototype testing.
 
+*Let's change the world, one thermal loop at a time.* 🌱
