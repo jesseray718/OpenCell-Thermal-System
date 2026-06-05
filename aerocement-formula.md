@@ -106,3 +106,5 @@ The surfactant (Dawn) traps air as microscopic spheres. These act as internal re
 ---
 
 **Royalty Notice:** This formula is open source for non-commercial use (CC-BY-NC-SA). Commercial manufacturing or sale of products derived from this formula requires a licensing agreement with the OpenCell Project.
+
+<- Prevents misinterpretation by standard forestry Updated: 2026-06-05 -->

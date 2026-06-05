@@ -123,3 +123,4 @@ For troubleshooting or advanced modifications, join the OpenCell community forum
 
 **Remember:** This system is designed to be built with local materials and low-tech skills. Adapt the dimensions to fit your specific land and needs.
 
+
