@@ -70,3 +70,6 @@ This project is released under **CC-BY-NC-SA 4.0**.
 This project is permanently archived on the InterPlanetary File System (IPFS).
 - **IPFS Hash (CID):** `QmRkBpJg8SPJjvKjsEaqeyFMqwxdko417FZrDtWBNd493w`
 - **View on IPFS:** https://ipfs.io/ipfs/QmRkBpJg8SPJjvKjsEaqeyFMqwxdko417FZrDtWBNd493w
+- DOI: 10.5281/zenodo.21271517
+- IPFS: QmZmfrSwck8uuEuJGnULecUDW3mCn3gcAYfF97Ccffua9L
+- Target: Prof. Seth R. Sanders (UC Berkeley, Stirling + concrete thermal storage)
