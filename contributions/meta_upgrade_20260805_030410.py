@@ -1,2 +1,1 @@
-#!/usr/bin/env python3
-print("Upgrade applied to OpenCell-Thermal-System")
+/data/data/com.termux/files/home/une/meta_hub/OpenCell-Thermal-System/contributions/meta_upgrade_20260804_235459.py
