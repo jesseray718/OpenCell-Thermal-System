@@ -4,6 +4,7 @@ on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
   workflow_dispatch:
+ chore/foundation-uplift-20260827-205905
 
 permissions:
   contents: read
@@ -28,3 +29,15 @@ jobs:
         run: |
           echo "OpenRabbitAI advisory workflow triggered."
           echo "Replace with real command/action."
+
+permissions:
+  contents: read
+  pull-requests: write
+jobs:
+  assist:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Replace with actual OpenRabbitAI invocation"
+ main
