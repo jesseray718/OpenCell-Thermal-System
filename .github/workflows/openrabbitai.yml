@@ -1,8 +1,35 @@
 name: OpenRabbitAI
+
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
   workflow_dispatch:
+ chore/foundation-uplift-20260827-205905
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: openrabbitai-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  assist:
+    if: github.event_name != 'pull_request' || github.event.pull_request.draft == false
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: OpenRabbitAI advisory run
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          OPENRABBITAI_API_KEY: ${{ secrets.OPENRABBITAI_API_KEY }}
+        run: |
+          echo "OpenRabbitAI advisory workflow triggered."
+          echo "Replace with real command/action."
+
 permissions:
   contents: read
   pull-requests: write
@@ -13,3 +40,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: echo "Replace with actual OpenRabbitAI invocation"
+ main
