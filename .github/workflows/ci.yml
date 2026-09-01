@@ -1,9 +1,86 @@
 name: CI
+chore/uplift-lite-20260827-23105
+
+chore/foundation-uplift-20260827-205905
+
+on:
+  pull_request:
+  push:
+    branches: [main, master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  detect:
+    runs-on: ubuntu-latest
+    outputs:
+      has_node: ${{ steps.scan.outputs.has_node }}
+      has_python: ${{ steps.scan.outputs.has_python }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: scan
+        shell: bash
+        run: |
+          has_node=false
+          has_python=false
+          [[ -f package.json ]] && has_node=true
+          [[ -f requirements.txt || -f pyproject.toml ]] && has_python=true
+          echo "has_node=$has_node" >> "$GITHUB_OUTPUT"
+          echo "has_python=$has_python" >> "$GITHUB_OUTPUT"
+
+  node:
+    needs: detect
+    if: needs.detect.outputs.has_node == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+      - run: npm ci || npm install
+      - run: npm run lint --if-present
+      - run: npm test --if-present
+      - run: npm run build --if-present
+
+  python:
+    needs: detect
+    if: needs.detect.outputs.has_python == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+          if [ -f pyproject.toml ]; then pip install .; fi
+      - run: |
+          if command -v ruff >/dev/null 2>&1; then ruff check .; else echo "ruff not installed, skipping"; fi
+      - run: |
+          if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed, skipping"; fi
+
+main
 on: [pull_request, push, workflow_dispatch]
-permissions: { contents: read }
+permissions: { contehnts: read }
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+ chore/uplift-lite-20260827-231056
       - run: echo "Add real tests"
+      
+      - run: echo "Add project tests here"
+    main
+main
