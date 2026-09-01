@@ -1,9 +1,22 @@
 name: OpenRabbitAI
+chore/uplift-lite-20260827-231056
 
+
+main
 on:
   pull_request:
     types: [opened, synchronize, reopened, ready_for_review]
   workflow_dispatch:
+ chore/uplift-lite-20260827-231056
+permissions: { contents: read, pull-requests: write }
+jobs:
+  assist:
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - run: echo "Replace with actual OpenRabbitAI command"
+
  chore/foundation-uplift-20260827-205905
 
 permissions:
@@ -41,3 +54,4 @@ jobs:
       - uses: actions/checkout@v4
       - run: echo "Replace with actual OpenRabbitAI invocation"
  main
+main

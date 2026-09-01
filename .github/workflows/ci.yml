@@ -1,4 +1,6 @@
 name: CI
+chore/uplift-lite-20260827-23105
+
 chore/foundation-uplift-20260827-205905
 
 on:
@@ -68,12 +70,17 @@ jobs:
       - run: |
           if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed, skipping"; fi
 
+main
 on: [pull_request, push, workflow_dispatch]
-permissions: { contents: read }
+permissions: { contehnts: read }
 jobs:
   test:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+ chore/uplift-lite-20260827-231056
+      - run: echo "Add real tests"
+      
       - run: echo "Add project tests here"
     main
+main
