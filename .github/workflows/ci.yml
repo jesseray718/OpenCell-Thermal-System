@@ -70,6 +70,9 @@ jobs:
       - run: |
           if command -v pytest >/dev/null 2>&1; then pytest -q; else echo "pytest not installed, skipping"; fi
 
+ chore/foundation-uplift-20260827-205905
+
+main
 main
 on: [pull_request, push, workflow_dispatch]
 permissions: { contehnts: read }
@@ -83,4 +86,6 @@ jobs:
       
       - run: echo "Add project tests here"
     main
+chore/foundation-uplift-20260827-205905
 main
+ main
