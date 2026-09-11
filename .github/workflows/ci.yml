@@ -77,10 +77,14 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
+pendabot/github_actions/actions/checkout-7
+      - uses: actions/checkout@v7
+
       - uses: actions/checkout@v4
  chore/uplift-lite-20260827-231056
       - run: echo "Add real tests"
       
+main
       - run: echo "Add project tests here"
     main
 main
